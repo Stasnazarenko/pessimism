@@ -15,7 +15,6 @@ WORKDIR /app
 COPY --from=builder /app/bin/pessimism .
 
 # Run app and expose api and metrics ports
-
 # API
 EXPOSE 8080
 
